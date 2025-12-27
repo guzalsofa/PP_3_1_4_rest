@@ -9,7 +9,6 @@ import java.util.List;
 public interface UserService {
     List<User> findAll();
     User findById(Long id);
-    void addUser(User user, List<String> roleNames);
     User addUser(User user);
     User updateUser(User user);
     void deleteUser(Long id);
